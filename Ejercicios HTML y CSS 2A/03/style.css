@@ -1,0 +1,41 @@
+content{
+    display:flex;
+    justify-content: space-between;
+    flex-direction:row; 
+    background-color: rgb(204, 100, 164);
+}
+
+.mainTitle{
+    margin: 1rem;
+    padding: 1rem;
+    color: green;
+    text-align:start;
+    font-size:large;
+}
+.subTitle{
+    color: blue;
+    justify-content: center;
+    margin: 1rem;
+    padding: 1rem;
+}
+#list{
+    color: rgb(189, 29, 128);
+    margin: 5rem;
+    padding: 1rem;
+    border: 1px solid green;
+    border-radius: 5px;
+    background-color: lightgreen;
+}
+.listTitle{
+    align-content:center;
+    margin:2rem;
+
+}
+#links{
+    list-style-type:none;
+}
+.option{
+    padding: 0;
+    
+    color: rgb(189, 29, 128);
+}

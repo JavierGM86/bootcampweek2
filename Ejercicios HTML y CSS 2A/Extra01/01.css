@@ -1,0 +1,98 @@
+#web{
+    max-width: 960px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 0 0 480px;
+    height: 100%;
+}
+
+#header{
+    display:flex;
+    justify-content:start;
+    padding-left: 16px;
+padding-right: 16px;
+height: 64px;
+}
+.class{
+    width: 234px;
+}
+#anuncioTablet{
+    display:flex;
+    flex-direction:row;
+    margin: 0 0 10px 0;
+}
+#barraBuscar{
+    display:flex;
+    flex-direction:row;
+    align-items:baseline;
+}
+input[type=text] {
+    width: 850px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    transition: width 0.4s ease-in-out;
+    margin: 0 6px 0 0;
+  }
+  input[type=text]:focus {
+    width: 100%;
+  }
+  .botonSearch{
+        background-color: lightgreen;
+        border-radius: 5px;
+        color: white;
+        padding: 14px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+  }
+  #userOptions{
+    display:flex;
+  }
+  .list{
+    list-style-type:none;
+    display:flex;
+    font-family:Verdana, Tahoma, sans-serif;
+  }
+  .nuevoAnuncio{
+    margin: 0 1rem 0 1rem;
+    padding: 1rem;
+    background-color: yellow;
+        border-radius: 5px;
+    
+  }
+  .misAnuncios{
+    margin: 0 1rem 0 1rem;
+    padding: 1rem;
+    color: white;
+    background-color: lightgreen;
+        border-radius: 5px;
+  }
+  .favoritos{
+    margin: 0 1rem 0 1rem;
+    padding: 1rem;
+    background-color: lightgrey;
+        border-radius: 5px;
+    
+  }
+  .destacar{
+    margin: 0 1rem 0 1rem;
+    padding: 1rem;
+    background-color: lightgrey;
+        border-radius: 5px;
+  }
+  #regalos{
+      display:flex;
+      justify-content:center;
+      font-family:Verdana, Tahoma, sans-serif;
+  }
+  .tituloRegalos{
+      text-align:center;
+  }

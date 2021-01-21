@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>    html{
+       /*font-size: 1.4rem;*/
+      }      .buttonRem{
+        background: gray;
+        height: 48px;        padding: 0 1rem;
+        color: white;
+        text-transform: uppercase;
+        border-radius: .3rem;
+        margin: 5rem;
+        background-color: gray;
+        font-size: 1.1rem;
+        }
+      .buttonEm{
+        background: gray;
+        height: 3em;        padding: 0 1em;
+        color: white;
+        text-transform: uppercase;
+        border-radius: .3em;
+        margin: 5rem;
+         font-size: 1.1em; 
+      }
+     .em{
+        font-size: 2.1em; 
+     }
+     .porcentaje{
+       width: 50%;
+       background-color: salmon;
+     }
+     .porc{
+       height: 50%;
+       background-color: salmon;
+     }
+     .pad{     }    
+     </style>
+</head>
+<body>
+    <h2> Rem </h2> 
+    <p>La unidad rem tiene como referencia de medida el font-size del elemento root, la etiqueta <html> (en inglés sería como "root em").</p>    <button class="buttonRem">Enviar</button>    <h2>Em</h2>
+    <p>La unidad em tiene como referencia de medida el font-size del elemento actual.</p>
+    <button class="buttonEm">Enviar</button><div class="em">
+    <p>Párrafo 1</p>
+    <div class="em">
+        <p>Párrafo 2</p>
+        <div class="em">
+            <p>Párrafo 3</p>        </div>
+    </div>
+</div><h2>Porcentajes</h2>
+<div class="pad">
+ <div class="porc"></div> 
+</div></body>
+</html>

@@ -1,0 +1,23 @@
+#padre{
+    background-color: salmon;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 80vh;
+}
+/* #segundoPadre{
+    display:flex
+} */
+.hijo{
+    background-color: salmon;
+    padding: 1rem;
+    justify-content:space-between;
+    text-align:center;
+    align-items: center;
+    align-content: center;
+    vertical-align: top;
+}
+h1{
+    text-align: center;
+}

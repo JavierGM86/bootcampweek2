@@ -1,0 +1,33 @@
+h1, h2, h3, h4 ,h5, h6{
+    color: blue;
+    background-color: pink;
+}
+body{
+    background-color: skyblue;
+}
+*{
+    font-family: "Helvetica", sans-serif;
+}
+.title{
+    color: green!important;
+}
+
+#imagenGato{
+    width: 300px;
+    height: 100%;
+}
+#imagenGoogle{
+    width: 100%;
+    min-width: 700px;
+    height: 100%;
+}
+
+.botton{
+    margin: 30px 10px 40px 20px;
+    margin-top: 20px;
+    padding: 40px;
+    border: 10px solid green;
+    display: inline-block;
+    background: pink;
+    color: yellowgreen;
+}

@@ -1,0 +1,57 @@
+#parteSuperior{
+    background-color: salmon;
+    display: block;
+    height: 100vh;
+
+}
+.tituloSuperior{
+    display:flex;
+    justify-content:center;   
+}
+.b{
+    display:flex;
+    border: 1px solid green;
+    border-radius: 5px;
+    background-color: white;
+    color:red;
+    margin: 1.5rem 0 0 0;
+    padding: 1rem;    
+}
+#parteInferior{
+    background-color:green;
+    display: block;
+    height: 120vh;
+}
+.b2{
+        display:flex;
+        border: 1px solid green;
+        border-radius: 5px;
+        background-color: white;
+        color:green;
+        margin: 1.5rem 0 0 0;
+        padding: 1rem;    
+}
+.padre{
+    display: flex;
+    justify-content:space-between;
+    
+}
+.hijo{
+    padding: 1rem;
+    justify-content:space-between;
+    text-align:center;
+    align-items: center;
+    align-content: center;
+    vertical-align: top;
+    max-width:30%;
+}
+.hijo2{
+    padding: 1rem;
+    justify-content:space-between;
+    vertical-align: top;
+    max-width:20%; 
+    align-items:baseline;
+}
+h1{
+    text-align: center;
+}

@@ -1,0 +1,28 @@
+#header{
+    display:flex;
+    justify-content: space-between;
+    background-color: lightblue;
+}
+#links{
+    list-style-type:none;
+    display: flex;
+}
+.option{
+    margin: 0 1rem 0 1rem;
+    padding: 1rem;
+    color: white;
+}
+.mainTitle{
+    margin: 1rem;
+    padding: 1rem;
+    color: white;
+    font-size:large;
+}
+
+.subTitle{
+    margin: 0 0 0 10rem;
+    color: white;
+    box-sizing: border-box;
+    justify-content: flex-end;
+    align-self: right;
+}
